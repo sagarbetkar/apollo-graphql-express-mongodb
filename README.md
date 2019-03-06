@@ -21,7 +21,7 @@ npm run dev
 Go to localhost:4000/graphql
 ```
 
-####Query and Mutations
+#### Query and Mutations
 
 ```Graphql
 # Write your query or mutation here
