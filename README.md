@@ -1,6 +1,6 @@
 # Apollo-GraphQL-Express-MongoDB-TypeScript
 
-This repo is just basic of GraphQL types and mutation example using apollo-server-express. Also simple Graphql CRUD operation.
+This repo is just basic of GraphQL types and mutation example using apollo-server-express. Also simple CRUD operation.
 
 - Built With
 - Getting Started
@@ -36,7 +36,7 @@ Go to localhost:4000/graphql
 
 mutation
 {
-	addUser(firstName: "Martin", lastName: "Mystery"){
+	addUser(firstName: "Martin", lastName: "Mystery") {
 		firstName
 		lastName
  }
@@ -44,14 +44,14 @@ mutation
 
 mutation
 {
-  updateUser(id: "5c7ff5c1896ab545dae1d", firstName: "Alex", lastName: "Mystery"){
+  updateUser(id: "5c7ff5c1896ab539545dae1d", firstName: "Alex", lastName: "Mystery"){
     firstName
     lastName
   }
 }
 
 mutation{
-  deleteUser(id: "5c7ff70b896a545dae1f"){
+  deleteUser(id: "5c7ff70b896ab539545dae1f"){
     firstName
     lastName
   }
