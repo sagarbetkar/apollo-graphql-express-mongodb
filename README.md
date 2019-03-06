@@ -44,14 +44,14 @@ mutation
 
 mutation
 {
-  updateUser(id: "5c7ff5c1896ab539545dae1d", firstName: "Alex", lastName: "Mystery"){
+  updateUser(id: "5c7ff5c1896ab545dae1d", firstName: "Alex", lastName: "Mystery"){
     firstName
     lastName
   }
 }
 
 mutation{
-  deleteUser(id: "5c7ff70b896ab539545dae1f"){
+  deleteUser(id: "5c7ff70b896a545dae1f"){
     firstName
     lastName
   }
